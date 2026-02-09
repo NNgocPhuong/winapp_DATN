@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="WinApp.Views.StationListLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Grid>
+            <Border x:Name="LeftPanel">
+            </Border>
+        </Grid>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition x:Name="flyingColumn" 
+                              Tag="500"
+                              Width="0" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1" x:Name="RightPanel">
+                <Border Background="{StaticResource BannerBrush}" Opacity="0.9" />
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <vst:GridLayout
+                        Padding="20"
+                        Background="White"
+                        CornerRadius="4">
+                        <StackPanel>
+                            <vst:HeaderText Foreground="#333"
+                                    HeaderSize="6"
+                                    Text="{Binding Path=Name}" />
+                            <Border x:Name="FormContent">
+                            </Border>
+                        </StackPanel>
+
+                        <vst:CloseButon x:Name="BtnClose" 
+                                        HorizontalAlignment="Right"
+                                        VerticalAlignment="Top"
+                                        Background="White"
+                                        Foreground="Gray" />
+
+                    </vst:GridLayout>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                Margin="10"
+                                Grid.Row="1">
+                        <vst:Button Text="Cập nhật" 
+                                    CornerRadius="4"
+                                    Grid.Column="0"
+                                    HorizontalAlignment="Center"
+                                    Padding="30 10"
+                                    x:Name="BtnUpdateInfo" />
+                        <vst:Button Text="thêm số" 
+                                    CornerRadius="4"
+                                    Background="DarkGreen" 
+                                    HorizontalAlignment="Center"
+                                    Padding="30 10"
+                                    Grid.Column="1"
+                                    x:Name="BtnAddPhone"/>
+                    </StackPanel>
+
+                    <vst:GridLayout Grid.Row="2"
+                        Padding="20"
+                        Background="White"
+                        CornerRadius="4">
+                        <vst:MyScrollViewer x:Name="PhoneListContent">
+                        </vst:MyScrollViewer>
+                    </vst:GridLayout>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

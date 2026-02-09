@@ -1,0 +1,35 @@
+﻿{
+  "user-list": {
+    "caption": "Danh sách người dùng",
+    "columns": [
+      {
+        "name": "name",
+        "caption": "Tên"
+      },
+      {
+        "name": "_id",
+        "caption": "Điện thoại"
+      }
+    ]
+  },
+  "device": {
+    "caption": "Danh sách thiết bị",
+    "columns": [
+      {
+        "name": "_id",
+        "caption": "ID",
+        "width": 120
+
+      },
+      {
+        "name": "name",
+        "caption": "Tên thiết bị"
+      },
+      {
+        "name": "addr",
+        "caption": "Địa chỉ lắp đặt"
+      }
+    ]
+  }
+
+}

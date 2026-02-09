@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="WinApp.Views.MainLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border Background="{StaticResource BannerBrush}" 
+                    Padding="5 10"
+                    BorderThickness="0 1 0 1" 
+                    BorderBrush="LightGray">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <vst:SearchBox Grid.Column="1"
+                                   Background="White"
+                                   CornerRadius="4"
+                                   x:Name="searchBox" />
+
+                <Border Grid.Column="2">
+                    <StackPanel Orientation="Horizontal" 
+                                Margin="10"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Right">
+                        <vst:SvgIcon Source="user" Stroke="{StaticResource PrimaryBrush}" />
+                        <TextBlock Foreground="{StaticResource PrimaryBrush}" Text="{Binding Path=Name}" />
+
+                    </StackPanel>
+                </Border>
+            </Grid>
+        </Border>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="1" 
+                              x:Name="mainContent" 
+                              Background="WhiteSmoke">
+
+            </Border>
+
+            <vst:GridLayout Grid.Column="1" x:Name="Fade">
+                <Border Background="#111" Opacity="0.5" />
+                <local:WaitingIndicator Width="60" />
+
+            </vst:GridLayout>
+            
+            <Border Grid.Column="0" Background="{StaticResource BannerBrush}">
+                <StackPanel x:Name="TabbedBar">
+                    <vst:TabbarItem Source="home" Url="Home" Text="Trang chủ" />
+                    <vst:TabbarItem Source="device" Url="StationManager" Text="Thiết bị" />
+                    <vst:TabbarItem Source="user" Url="User" Text="Người dùng" />
+                    <vst:TabbarItem Source="setting" Url="Setting" Text="Cài đặt" />
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

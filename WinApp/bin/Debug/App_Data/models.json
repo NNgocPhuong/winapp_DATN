@@ -1,0 +1,56 @@
+{
+  "FIRE": {
+    "realtime": {
+      "caption": "Giám sát điện - Realtime",
+      "items": [
+        {
+          "name": "u",
+          "caption": "Điện áp",
+          "unit": "V",
+          "format": "N0"
+        },
+        {
+          "name": "i",
+          "caption": "Dòng điện",
+          "unit": "A",
+          "format": "N1"
+        },
+        {
+          "name": "f",
+          "caption": "Hiệu suất",
+          "unit": "%",
+          "format": "N0"
+        },
+        {
+          "name": "l",
+          "caption": "Rò rỉ",
+          "unit": "mA",
+          "format": "N1"
+        }
+      ]
+    }
+    "cost": {
+      "caption": "Mức tiêu thụ điện",
+      "items": [
+        {
+          "name": "d",
+          "caption": "Trong ngày",
+          "unit": "W",
+          "format": "N0"
+        },
+        {
+          "name": "p",
+          "caption": "Trong tháng",
+          "unit": "kW",
+          "format": "N0"
+        },
+        {
+          "name": "m",
+          "caption": "Tiền điện",
+          "unit": "đ",
+          "format": "N0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+﻿<UserControl x:Class="WinApp.Views.PhoneItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls"
+             mc:Ignorable="d" 
+             HorizontalAlignment="Center"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="vst:CheckBoxIndicator">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderBrush" Value="{StaticResource PrimaryBrush}" />
+        </Style>
+    </UserControl.Resources>
+    <Border BorderBrush="LightGray"
+            BorderThickness="1"
+            CornerRadius="4"
+            Margin="2.5"
+            Height="60"
+            >
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0"
+                    x:Name="BtnSms"
+                    Cursor="Hand"
+                    Background="LightGray"
+                    CornerRadius="40"
+                    Width="40" 
+                    Height="40">
+                <vst:SvgIcon Source="sms" Fill="Black" />
+
+                <!--<Viewbox Width="20">
+                </Viewbox>-->
+            </Border>
+
+            <Border Grid.Column="1"
+                    x:Name="BtnCall"
+                    Cursor="Hand"
+                    Background="LightGray"
+                    CornerRadius="40"
+                    Width="40" 
+                    Height="40">
+                <vst:SvgIcon Source="call" Fill="Black" />
+            </Border>
+
+            <TextBlock Grid.Column="2"
+                       FontSize="20"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Text="{Binding Path=Phone}" />
+            <Viewbox Grid.Column="3" Width="36">
+                <vst:CloseButon 
+                            Foreground="Red" 
+                            Background="White"
+                            Margin="20"
+                            x:Name="BtnDelete" />
+            </Viewbox>
+
+            <!--<Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid Margin="10 0">
+                <vst:HeaderText HeaderSize="6" Text="{Binding Path=Phone}" />
+                <Viewbox Width="12"
+                         Margin="0 10"
+                         HorizontalAlignment="Right" 
+                         VerticalAlignment="Center">
+                    <vst:CloseButon Foreground="Red" 
+                                    Background="White"
+                                    x:Name="DeleteButton" />
+                </Viewbox>
+                
+            </Grid>
+
+            <Border Grid.Row="1" 
+                    Padding="10 20 40 10"
+                    Background="WhiteSmoke">
+            
+                <StackPanel>
+                <StackPanel Orientation="Horizontal"
+                            Cursor="Hand">
+                    <vst:CheckBox x:Name="SmsButton" Checked="{Binding Path=Sms}" />
+                    <TextBlock Text="Gửi tin nhắn"
+                               FontSize="16" 
+                               Margin="5 -1"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" 
+                            Cursor="Hand"
+                            Margin="0 10">
+                    <vst:CheckBox x:Name="CallButton" Checked="{Binding Path=Call}" />
+                    
+                    <TextBlock Text="Gửi cuộc gọi" 
+                               FontSize="16"
+                               Margin="5 -1" />
+                </StackPanel>
+
+            </StackPanel>
+                
+            </Border>-->
+        </Grid>
+    </Border>
+</UserControl>

@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="WinApp.Views.CurrentStationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="local:MonitoringBlockItem">
+            <Setter Property="BorderBrush" Value="LightGray" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="BorderRadius" Value="4" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Margin" Value="4" />
+            <Setter Property="MinWidth" Value="120" />
+        </Style>
+    </UserControl.Resources>
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Border Padding="10" 
+                Background="{StaticResource PrimaryBrush}">
+                <StackPanel>
+                    <TextBlock Text="{Binding Path=Station.ObjectId}" Foreground="White" />
+                    <vst:HeaderText HeaderSize="5" Text="{Binding Path=Station.Name}" Foreground="White" />
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <local:StationNowChartView x:Name="ChartView" />
+        </Grid>
+
+        <StackPanel Grid.Row="2" x:Name="StatusRecord">
+
+            <Border BorderBrush="LightGray"
+                    BorderThickness="1"
+                    Margin="10"
+                    CornerRadius="4"
+                    >
+                <Grid Height="80" x:Name="IndicatorsContent">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <local:AlarmIcon x:Name="AlamIcons"
+                                 Orientation="Horizontal"
+                                 IconSize="40"
+                                 IconOpacity="0.2" />
+
+                    <vst:Button Grid.Column="1"
+                            Width="60" 
+                            Height="60" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center"
+                            Foreground="White"
+                            CornerRadius="40"
+                            x:Name="Relay0"
+                            Opacity="0" />
+
+                    
+                </Grid>
+
+            </Border>
+            
+            <Border Grid.Row="3" Background="WhiteSmoke" CornerRadius="4" Margin="10" Padding="10">
+                <StackPanel x:Name="StatusContent"></StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>

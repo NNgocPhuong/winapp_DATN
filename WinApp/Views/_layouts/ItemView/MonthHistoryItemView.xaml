@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="WinApp.Views.MonthHistoryItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Background="White" 
+            BorderThickness="1"
+            CornerRadius="4"
+            Padding="10"
+            BorderBrush="LightGray">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80" />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Viewbox Width="24" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <vst:SvgIcon Source="calendar" Fill="{StaticResource PrimaryBrush}" />
+            </Viewbox>
+
+            <vst:HeaderText Grid.Column="1" 
+                            HeaderSize="7"
+                            VerticalAlignment="Center"
+                            Text="{Binding Path=Date}" />
+
+            <StackPanel Grid.Column="2" 
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center">
+                <vst:HeaderText HeaderSize="5" 
+                                HorizontalAlignment="Center"
+                                Text="{Binding Path=Total}" />
+                <TextBlock FontSize="14" Text="sự kiện" HorizontalAlignment="Center" />
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>
