@@ -4,7 +4,7 @@
     "url": "guest/login",
     "editors": [
       {
-        "name": "username",
+        "name": "userName",
         "caption": "Tên đăng nhập"
       },
       {

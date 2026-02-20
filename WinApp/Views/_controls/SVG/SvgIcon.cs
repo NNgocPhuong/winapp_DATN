@@ -228,7 +228,11 @@ namespace Vst.Controls
         }
         static object GetPathData(object value)
         {
-            return Geometry.Parse(((string)value).Replace("\r\n", " "));
+            var s = ((string)value)
+                .Replace("\r\n", " ")
+                .Replace(',', '.'); // normalize decimals to invariant form
+
+            return Geometry.Parse(s);
         }
         static object GetPoints(object value)
         {

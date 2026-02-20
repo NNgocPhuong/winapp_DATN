@@ -14,6 +14,41 @@ namespace Services
         {
             ActionName = "login";
         }
+
+        protected override void BeginExecute()
+        {
+            base.BeginExecute();
+
+            // Ensure payload matches server contract: { "userName": "admin", "password": "123456" }
+            // Also normalize username for DB lookup compatibility.
+            if (TryGetValue("UserName", out var userNameObj))
+            {
+                var userName = userNameObj?.ToString();
+                if (userName != null)
+                    userName = userName.Trim().ToLowerInvariant();
+
+                Push("userName", userName);
+                Remove("UserName");
+            }
+            else if (TryGetValue("userName", out var userNameObj2))
+            {
+                var userName = userNameObj2?.ToString();
+                if (userName != null)
+                    userName = userName.Trim().ToLowerInvariant();
+
+                Push("userName", userName);
+            }
+
+            if (TryGetValue("Password", out var passwordObj))
+            {
+                Push("password", passwordObj?.ToString());
+                Remove("Password");
+            }
+            else if (TryGetValue("password", out var passwordObj2))
+            {
+                Push("password", passwordObj2?.ToString());
+            }
+        }
     }
 
     public class AccountService : Service

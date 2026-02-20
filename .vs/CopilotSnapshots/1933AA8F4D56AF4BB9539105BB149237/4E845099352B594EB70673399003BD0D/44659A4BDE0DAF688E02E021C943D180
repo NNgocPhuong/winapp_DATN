@@ -14,6 +14,24 @@ namespace Services
         {
             ActionName = "login";
         }
+
+        protected override void BeginExecute()
+        {
+            base.BeginExecute();
+
+            // Server expects camelCase keys (userName/password)
+            if (TryGetValue("UserName", out var userName))
+            {
+                Push("userName", userName);
+                Remove("UserName");
+            }
+
+            if (TryGetValue("Password", out var password))
+            {
+                Push("password", password);
+                Remove("Password");
+            }
+        }
     }
 
     public class AccountService : Service
