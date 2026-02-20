@@ -1,66 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UserDesktop\\WinApp\\",
+  "WorkspaceRootPath": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\k\u00EC 20251\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\winappdemo\\winapp_datn\\winapp\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\userdesktop\\winapp\\winapp\\views\\_layouts\\giamsat\\monitoringlayout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\giamsat\\monitoringlayout.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\k\u00EC 20251\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\winappdemo\\winapp_datn\\winapp\\views\\home\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\home\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\viewmodels\\monitoringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\viewmodels\\monitoringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\k\u00EC 20251\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\winappdemo\\winapp_datn\\winapp\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\services\\deviceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\vst\\json\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\vst\\json\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\k\u00EC 20251\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\winappdemo\\winapp_datn\\winapp\\services\\devicetouserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\services\\devicetouserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\services\\history\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\services\\history\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\giamsat\\currentstationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\giamsat\\currentstationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\giamsat\\currentstationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\giamsat\\currentstationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\app_data\\list.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\app_data\\list.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\giamsat\\monitoringlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\giamsat\\monitoringlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\monthalarmlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\monthalarmlayout.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\calendar\\calendarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\calendar\\calendarview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\calendar\\calendarview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\calendar\\calendarview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_layouts\\onedayview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_layouts\\onedayview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|D:\\UserDesktop\\WinApp\\winapp\\views\\_controls\\(extentions).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\views\\_controls\\(extentions).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|d:\\k\u00EC 20251\\\u0111\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\winappdemo\\winapp_datn\\winapp\\services\\requestqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E202967-B7B6-4948-BD36-A8A44F27F00C}|WinApp\\WinApp.csproj|solutionrelative:winapp\\services\\requestqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,185 +30,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MonitoringLayout.xaml",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-29T12:21:46.21Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "list.json",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\App_Data\\list.json",
-              "RelativeDocumentMoniker": "WinApp\\App_Data\\list.json",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\App_Data\\list.json",
-              "RelativeToolTip": "WinApp\\App_Data\\list.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-03T12:36:59.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CurrentStationView.xaml.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml.cs",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA0wCwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T21:39:32.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CurrentStationView.xaml",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\GiamSat\\CurrentStationView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-02T21:39:17.137Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HistoryService.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Services\\History\\HistoryService.cs",
-              "RelativeDocumentMoniker": "WinApp\\Services\\History\\HistoryService.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Services\\History\\HistoryService.cs",
-              "RelativeToolTip": "WinApp\\Services\\History\\HistoryService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAA8wFsAAAAqAAAAAAAAAA==",
+              "Title": "RequestQueue.cs",
+              "DocumentMoniker": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\RequestQueue.cs",
+              "RelativeDocumentMoniker": "WinApp\\Services\\RequestQueue.cs",
+              "ToolTip": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\RequestQueue.cs",
+              "RelativeToolTip": "WinApp\\Services\\RequestQueue.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADgv1UAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:53:34.312Z"
+              "WhenOpened": "2026-02-20T14:08:21.052Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{55f480fa-fbef-4386-8c1c-ea8d10c9f542}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Document.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\VST\\Json\\Document.cs",
-              "RelativeDocumentMoniker": "WinApp\\VST\\Json\\Document.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\VST\\Json\\Document.cs",
-              "RelativeToolTip": "WinApp\\VST\\Json\\Document.cs",
-              "ViewState": "AgIAAPEBAAAAAAAAAAA2wBICAAAIAAAAAAAAAA==",
+              "Title": "DeviceToUserService.cs",
+              "DocumentMoniker": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\DeviceToUserService.cs",
+              "RelativeDocumentMoniker": "WinApp\\Services\\DeviceToUserService.cs",
+              "ToolTip": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\DeviceToUserService.cs",
+              "RelativeToolTip": "WinApp\\Services\\DeviceToUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:51:56.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MonitoringViewModel.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\ViewModels\\MonitoringViewModel.cs",
-              "RelativeDocumentMoniker": "WinApp\\ViewModels\\MonitoringViewModel.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\ViewModels\\MonitoringViewModel.cs",
-              "RelativeToolTip": "WinApp\\ViewModels\\MonitoringViewModel.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAvwCkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T17:08:51.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MonitoringLayout.xaml.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml.cs",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\GiamSat\\MonitoringLayout.xaml.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswEYAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T16:35:18.658Z",
+              "WhenOpened": "2026-02-20T14:50:07.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MonthAlarmLayout.xaml",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\MonthAlarmLayout.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\MonthAlarmLayout.xaml",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\MonthAlarmLayout.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\MonthAlarmLayout.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-29T16:31:57.476Z"
+              "DocumentIndex": 2,
+              "Title": "DeviceService.cs",
+              "DocumentMoniker": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\DeviceService.cs",
+              "RelativeDocumentMoniker": "WinApp\\Services\\DeviceService.cs",
+              "ToolTip": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\DeviceService.cs",
+              "RelativeToolTip": "WinApp\\Services\\DeviceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T14:50:02.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Loading.cs",
+              "DocumentMoniker": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Views\\Home\\Loading.cs",
+              "RelativeDocumentMoniker": "WinApp\\Views\\Home\\Loading.cs",
+              "ToolTip": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Views\\Home\\Loading.cs",
+              "RelativeToolTip": "WinApp\\Views\\Home\\Loading.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T14:24:25.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Services\\AccountService.cs",
+              "DocumentMoniker": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "WinApp\\Services\\AccountService.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Services\\AccountService.cs",
+              "ToolTip": "D:\\k\u00EC 20251\\\u0110\u1ED3 \u00E1n t\u1ED1t nghi\u1EC7p k\u0129 s\u01B0\\WinAppDemo\\winapp_DATN\\WinApp\\Services\\AccountService.cs",
               "RelativeToolTip": "WinApp\\Services\\AccountService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAnwFQAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T16:05:31.183Z",
+              "WhenOpened": "2026-02-20T14:16:40.119Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "(Extentions).cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_controls\\(Extentions).cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_controls\\(Extentions).cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_controls\\(Extentions).cs",
-              "RelativeToolTip": "WinApp\\Views\\_controls\\(Extentions).cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwKcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T11:55:34.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OneDayView.xaml",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\OneDayView.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\OneDayView.xaml",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\OneDayView.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\OneDayView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-29T11:46:23.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CalendarView.xaml.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml.cs",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAlwFsAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T11:44:05.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CalendarView.xaml",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml",
-              "RelativeDocumentMoniker": "WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml",
-              "RelativeToolTip": "WinApp\\Views\\_layouts\\Calendar\\CalendarView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-29T11:40:31.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\UserDesktop\\WinApp\\WinApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WinApp\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\UserDesktop\\WinApp\\WinApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WinApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwE8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T11:38:19.898Z"
             }
           ]
         }

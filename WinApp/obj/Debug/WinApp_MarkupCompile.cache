@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\FinalProject\UserDesktop\UserDesktop\WinApp\WinApp\obj\Debug\
+D:\kì 20251\Đồ án tốt nghiệp kĩ sư\WinAppDemo\winapp_DATN\WinApp\obj\Debug\
 WinApp
 none
 false
 DEBUG;TRACE
-C:\FinalProject\UserDesktop\UserDesktop\WinApp\WinApp\App.xaml
+D:\kì 20251\Đồ án tốt nghiệp kĩ sư\WinAppDemo\winapp_DATN\WinApp\App.xaml
 19-1263261290
 19-339680671
 114-888349901
-17521403579
+17347777703
 MainWindow.xaml;Views\_layouts\MonthAlarmLayout.xaml;Views\_layouts\OneDayView.xaml;Views\_layouts\Calendar\CalendarView.xaml;Views\_layouts\Stations\AlarmStation.xaml;Views\_layouts\WaitingIndicator.xaml;Views\_layouts\ItemView\SelectStationItem.xaml;Views\_layouts\Manager\StationListLayout.xaml;Views\_layouts\Manager\UserListLayout.xaml;Views\_layouts\ItemView\PhoneItemView.xaml;Views\_layouts\ItemView\MonthHistoryItemView.xaml;Views\_layouts\GiamSat\MonitoringLayout.xaml;Views\_layouts\ItemView\DangerItemView.xaml;Views\_layouts\GiamSat\CurrentStationView.xaml;Views\_layouts\HomeLayout.xaml;Views\_layouts\Stations\StationItemView.xaml;Views\Windows\Dialog.xaml;Views\_layouts\FlyoutPanel.xaml;Views\_layouts\MainLayout.xaml;
 
 False

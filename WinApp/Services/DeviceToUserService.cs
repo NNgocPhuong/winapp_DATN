@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services
 {
-    public class DeviceToUserService : AccountService
+    public class DeviceToUserService : Service
     {
+        // Server mới: account/device/to-user
         public DeviceToUserService(Document user, Document device)
+            : base("account", "device", "to-user")
         {
-            ActionName = "device-to-user";
-
             Add("userId", user.ObjectId);
             Add("deviceId", device.ObjectId);
 
