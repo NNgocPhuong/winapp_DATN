@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WinApp.Views.SettingLayout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WinApp.Views"
+             xmlns:vst="clr-namespace:Vst.Controls">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Nơi đặt form Setting (profile) -->
+        <Border x:Name="Body" />
+
+        <!-- Nút Đăng xuất (tương tự nút tròn ở góc dưới) -->
+        <vst:Button x:Name="BtnLogout"
+                    Width="70"
+                    Height="70"
+                    Text="logout"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0,0,30,30" />
+    </Grid>
+</UserControl>

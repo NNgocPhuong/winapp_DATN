@@ -11,6 +11,14 @@ namespace Services
         }
     }
 
+    public class LogoutService : AccountService
+    {
+        public LogoutService()
+        {
+            ActionName = "logout";
+        }
+    }
+
     public class AccountService : Service
     {
         public AccountService() : base("account", "me")

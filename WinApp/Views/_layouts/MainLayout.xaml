@@ -29,14 +29,19 @@
                                    x:Name="searchBox" />
 
                 <Border Grid.Column="2">
-                    <StackPanel Orientation="Horizontal" 
-                                Margin="10"
-                                VerticalAlignment="Center"
-                                HorizontalAlignment="Right">
-                        <vst:SvgIcon Source="user" Stroke="{StaticResource PrimaryBrush}" />
-                        <TextBlock Foreground="{StaticResource PrimaryBrush}" Text="{Binding Path=Name}" />
-
-                    </StackPanel>
+                    <Button x:Name="LogoutButton"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="0"
+                            Margin="10"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right"
+                            Click="LogoutButton_Click">
+                        <StackPanel Orientation="Horizontal">
+                            <vst:SvgIcon Source="user" Stroke="{StaticResource PrimaryBrush}" />
+                            <TextBlock Foreground="{StaticResource PrimaryBrush}" Text="{Binding Path=Name}" />
+                        </StackPanel>
+                    </Button>
                 </Border>
             </Grid>
         </Border>

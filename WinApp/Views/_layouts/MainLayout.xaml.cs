@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Services;
 using Vst.Controls;
 
 namespace WinApp.Views
@@ -26,6 +27,32 @@ namespace WinApp.Views
             InitializeComponent();
 
             searchBox.Render(new ViewModels.SearchContext(null, s => MessageBox.Show(s), null, null));
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            LogoutButton.IsEnabled = false;
+
+            var service = new LogoutService();
+
+            service.ResponseError += (code, message) =>
+            {
+                LogoutButton.Dispatcher.InvokeAsync(() =>
+                {
+                    LogoutButton.IsEnabled = true;
+                    App.ShowError(message ?? "Logout failed.");
+                });
+            };
+
+            service.ResponseSuccess += _ =>
+            {
+                LogoutButton.Dispatcher.InvokeAsync(() =>
+                {
+                    App.Current.Shutdown();
+                });
+            };
+
+            service.Execute(new Document());
         }
 
         public void SetActiveTabbedBarItem(string name)
