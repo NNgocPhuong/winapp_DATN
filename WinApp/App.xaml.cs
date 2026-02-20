@@ -60,9 +60,18 @@ namespace WinApp
             Dialog loginDialog = null;
 
             var service = new LoginService();
+
+            service.ResponseError += (code, message) =>
+            {
+                if (code != 0)
+                {
+                    App.ShowError("Sai tài khoản hoặc mật khẩu");
+                }
+            };
+
             service.ResponseSuccess += (res) => {
                 Global.User = new AppUserModel(service.Engine.ID, res.ValueContext);
-                
+
                 loginDialog.Dispatcher.InvokeAsync(() => {
                     Browser.DataContext = Global.User;
                     Browser.Start();
